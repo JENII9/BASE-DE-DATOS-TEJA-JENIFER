@@ -2,7 +2,7 @@ services:
   - type: web
     name: pryMongoEsp32
     runtime: python
-    repo: https://github.com/diegoMS553/Esp32Mongo
+    repo: https://cloud.mongodb.com/v2/67448bd77a01030a5d3dfb45#/overview
     plan: free
     envVars:
       - key: MONGO_URI
